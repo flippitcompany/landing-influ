@@ -1,0 +1,106 @@
+@media only screen and (min-width: 1280px)  {
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-size: 20px;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-size: 20px;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    font-size: 20px;
+  }
+  /*-------------- FIRST SLIDE --------------*/
+  .first-slide{
+    background-size: 120%;
+    min-width: 876px;
+    height: 950px;
+    background-repeat: no-repeat;
+    padding-left: 120px;
+    display:flex;
+  }
+  .first-slide>.first-slide-left>h1{
+    font-size: 64px;
+    font-weight: 600;
+    width: 690px;
+  }
+  .first-slide>.first-slide-left>h2{
+    font-size: 24px;
+    line-height: 1.46;
+    width: 635px;
+  }
+  /*-----------------------------------------*/
+
+  /*-------------- SECOND SLIDE --------------*/
+  .second-slide{
+    padding-left: 120px;
+  }
+  .second-slide>.second-slide-left>h2{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.02;
+    color: #4a4a4a;
+  }
+  .second-slide>.second-slide-left>h3{
+    font-size: 24px;
+    line-height: 1.46;
+    width: 512px;
+    color: #4a4a4a;
+  }
+  .second-slide>.second-slide-right{
+    position: relative;
+  }
+  .flip{
+    width: 435px;
+    height: 122px;
+    position: absolute;
+    left: 140px;
+  }
+  /*-----------------------------------------*/
+  /*-------------- THIRD SLIDE --------------*/
+  .third-slide>h2{
+    font-size: 64px;
+  }
+  .third-slide>h3{
+    font-size: 24px;
+    width: 774px;
+  }
+  /*-----------------------------------------*/
+  /*-------------- THIRD SLIDE --------------*/
+  .fourth-slide-right>h2{
+    font-size: 64px;
+  }
+  .fourth-slide-right>h3{
+    font-size: 24px;
+  }
+  /*-----------------------------------------*/
+  /*-------------- FOOTER SLIDE --------------*/
+  .footer{
+    padding-left: 120px;
+  }
+  .footer-content{
+    display:flex;
+  }
+  .footer>.footer-content>.footer-left, .footer>.footer-content>.footer-right{
+    width: 300px;
+    color: #ffffff;
+    font-size: 18px;
+  }
+  .footer-logo{
+    margin: 48px 0px 62px;
+    width: 200px;
+    height: 48px;
+  }
+  .footer-left>div, .footer-right>div{
+    font-size: 16px;
+  }
+  .footer-RRSS-title{
+    font-size: 16px;
+  }
+  .footer-RRSS-logos>a{
+    margin: 32px 16px 0px 0px;
+  }
+
+  /*-----------------------------------------*/
+}
